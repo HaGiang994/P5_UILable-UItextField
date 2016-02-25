@@ -16,9 +16,8 @@
 
 -(IBAction)changeLabel{
     label.text = @"I have changed";
-    if (label.text == @"I have changed"){
+    if ([label.text  isEqual: @"I have changed"]){
         label.textColor = [UIColor purpleColor];
-        
     }
 }
 
